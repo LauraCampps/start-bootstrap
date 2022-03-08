@@ -1,4 +1,4 @@
-# AuLA DE PW 2
+# AULA DE PW 2
 Projeto de introdução ao Bootstrap
 1- Criar uma conta Git
 2- Conectar um repositório 
