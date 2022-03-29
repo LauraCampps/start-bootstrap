@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,52 @@
     <title>Meu Primeiro Bootstrap</title>
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
-<body>
-    
-    <div class= "container">
-        <div class="row">
-             <div  class="col-12 col-sm-8 col-md-6"> lorem ipsum dolor sit amet consectetur 
 
-             </div>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top shadow">
+        <a class="navbar-brand">laura</a>
+        <button class="navbar-toggler" data-target="menu" data-toggle="menu" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="menu" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Item 1 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+        <h1 class="display-4">Notícia</h1>
+        <p class="lead">Subtitle</p>
+        <hr class="my-4">
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-5 col-md-5"></div>
+
+            <!-- Criar uma nova estrutura bootstrap-->
+            <div class="container-fluid">
+                <div class="row.mt3">
+                    <div class="col-12 col-sm-4 col-md-4">
+                        <div class="img-fluid" src="">
+                        </div class="col-12 col-sm-8 col-md-8">
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
 
-    <script scr="js/query-3.6.0.min.js"></script>
-    <script sc="js/bootstrap.js"></script>
+
+    </div>
+    <script scr=" js/query-3.6.0.min.js ">
+    </script>
+    <script sc="js/bootstrap.js "></script>
 </body>
+
 </html>
